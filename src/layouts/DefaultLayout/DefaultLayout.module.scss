@@ -1,0 +1,15 @@
+.wapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: var(--default-layout-width);
+    display: flex;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    margin-top: var(--default-layout-deader-height);
+}
+
+.content {
+    flex: 1;
+}
